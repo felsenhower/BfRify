@@ -39,4 +39,4 @@ convert "$tempdir"'/page_'*'.jpeg' "$tempdir"'/temp.pdf'
 
 pdftk "$tempdir"'/temp.pdf' multibackground "$input_pdf" output "$output_pdf"
 
-# rm -rf "$tempdir"
+rm -rf "$tempdir"
