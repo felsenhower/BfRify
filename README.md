@@ -17,4 +17,6 @@ Needs **`convert (imagemagick)`** and **`pdftk`** to work.
 ./BfRify.sh <input pdf> <output pdf>
 ```
 
+## Example
+
 ![Before vs. after](beforeafter.png)
